@@ -150,7 +150,7 @@ a:hover {
 	color: #5f4dee;
 }
 
-.card:hover {
+.card.course:hover {
 	box-shadow: 0 0 10px #5f4dee;
 }
 
@@ -167,7 +167,7 @@ a:hover {
 	background-color: #5f4dee;
 }
 
-.card.best-value:hover {
+.card.course.best-value:hover {
 	box-shadow: 0 0 10px #eb8a2f;
 }
 
