@@ -142,6 +142,35 @@ a:hover {
 	text-decoration: underline;
 }
 
+.card .course-title {
+	transition: color 0.2s ease-in-out;
+}
+
+.card .course-title:hover {
+	color: #5f4dee;
+}
+
+.card:hover {
+	box-shadow: 0 0 10px #5f4dee;
+}
+
+.card .course-title.best-value  {
+	color: white;
+	transition: color 0.2s ease-in-out;
+}
+
+.card .course-title.best-value:hover {
+	color: #eb8a2f;
+}
+
+.card.best-value {
+	background-color: #5f4dee;
+}
+
+.card.best-value:hover {
+	box-shadow: 0 0 10px #eb8a2f;
+}
+
 .no-line {
 	text-decoration: none;
 }

@@ -14,8 +14,7 @@
 
     <!-- Play video -->
     <script type="text/javascript">
-        function playVideo()
-        {
+        function playVideo() {
             var iframe = document.getElementById('vimeoIframe');
             var src = iframe.getAttribute("src");
             var newSrc = src.replace("background=1", "autoplay=1");
@@ -127,125 +126,114 @@
     <!-- end of header -->
 
     <!-- Course List -->
-    <div id="course-list" class="cards-2" style="padding-left:0">
+    <div id="course-list" class="basic-1" style="padding-left:0">
         <div class="container">
+
             <div class="row justify-content-center">
-                <div class="col-lg-4 order-lg-4">
+                <div class="col-md-4 mb-2 order-md-1">
                     <!-- Card-->
-                    <div class="card best-value">
-                        <div class="card-image mt-4" style="padding-left: 0.5rem;padding-right: 1rem">
+                    <div class="card best-value h-100" style="transition: box-shadow 0.2s ease-in-out;">
+                        <div class="card-image">
                             <img class="img-fluid" src="images/dotnet-academy-mockup-full.png" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <h5 class="mb-4" style="color: white">ALL-ACCESS PASS</h5>
-                            <p style="color: white">Everything You Need To Become A Top .NET Developer</p>
-                        </div>
-                        <div class="button-wrapper mb-4">
-                            <a class="btn-solid-lg" href="all-access.html">Learn More</a>
+                            <a href="all-access.html" style="text-decoration: none;">
+                                <h5 class="course-title best-value">ALL-ACCESS PASS</h5>
+                            </a>
+                            <p class="line-spaced-paragraph" style="color: white;">Everything You Need To Become A Top .NET Developer</p>
                         </div>
                     </div> <!-- end of card -->
                     <!-- end of card -->
                 </div>
-                <div class="col-lg-4">
-                    <!-- Card-->
-                    <div class="card">
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100" style="transition: box-shadow 0.2s ease-in-out;">
                         <div class="card-image">
                             <img class="img-fluid" src="images/core-couse-mockup.png" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <h5>Building Microservices With .NET</h5>
-                            <p>From zero to a complete .NET microservices based system, step by step.</p>
-                        </div>
-                        <div class="button-wrapper mb-4">
-                            <a class="btn-solid-reg" href="https://dotnetmicroservices.com/building-microservices-with-dotnet#net-microservices-training" target="_blank">Learn
-                                More</a>
+                            <a href="https://dotnetmicroservices.com#net-microservices-training" target="_blank"
+                                style="text-decoration: none;">
+                                <h5 class="course-title">Building Microservices With .NET</h5>
+                            </a>
+                            <p class="line-spaced-paragraph">From zero to a complete .NET microservices based system,
+                                step by step.</p>
                         </div>
                     </div> <!-- end of card -->
-                    <!-- end of card -->
-                </div>     
-                <div class="col-lg-4">
-                    <!-- Card-->
-                    <div class="card">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100" style="transition: box-shadow 0.2s ease-in-out;">
                         <div class="card-image">
                             <img class="img-fluid" src="images/cloud-course-mockup.png" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <h5>Unlock The Power Of Microservices In The Azure Cloud</h5>
-                            <p>Deploy your .NET microservices to Kubernetes in the Microsoft Azure cloud.</p>
-                        </div>
-                        <div class="button-wrapper mb-4">
-                            <a class="btn-solid-reg" href="https://dotnetmicroservices.com/building-microservices-with-dotnet#cloud-training" target="_blank">Learn
-                                More</a>
+                            <a href="https://dotnetmicroservices.com#cloud-training" target="_blank"
+                                style="text-decoration: none;">
+                                <h5 class="course-title">Unlock The Power Of Microservices In The Azure Cloud</h5>
+                            </a>
+                            <p class="line-spaced-paragraph">Deploy your .NET microservices to Kubernetes in the
+                                Microsoft Azure cloud.</p>
                         </div>
                     </div> <!-- end of card -->
-                    <!-- end of card -->
-                </div>                  
-                <div class="col-lg-4">
-                    <!-- Card-->
-                    <div class="card">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100" style="transition: box-shadow 0.2s ease-in-out;">
                         <div class="card-image">
                             <img class="img-fluid" src="images/devops-course-mockup.png" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <h5>Automate All The Things With DevOps</h5>
-                            <p>Create a fully automated delivery pipeline to go from your box to the cloud in seconds.</p>
-                        </div>
-                        <div class="button-wrapper mb-4">
-                            <a class="btn-solid-reg" href="https://dotnetmicroservices.com/building-microservices-with-dotnet#devops" target="_blank">Learn
-                                More</a>
+                            <a href="https://dotnetmicroservices.com#devops" target="_blank"
+                                style="text-decoration: none;">
+                                <h5 class="course-title">Automate All The Things With DevOps</h5>
+                            </a>
+                            <p class="line-spaced-paragraph">Create a fully automated delivery pipeline to go from
+                                your box to the cloud in seconds.</p>
                         </div>
                     </div> <!-- end of card -->
-                    <!-- end of card -->
-                </div>                                   
-                <div class="col-lg-4">
-                    <!-- Card-->
-                    <div class="card">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100" style="transition: box-shadow 0.2s ease-in-out;">
                         <div class="card-image">
                             <img class="img-fluid" src="images/troubleshoot-course-mockup.png" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <h5>Microservices Troubleshooting Essentials</h5>
-                            <p>Be the first to know when things go wrong and get everything fixed before anyone notices it.</p>
-                        </div>
-                        <div class="button-wrapper mb-4">
-                            <a class="btn-solid-reg" href="https://dotnetmicroservices.com/building-microservices-with-dotnet#troubleshooting" target="_blank">Learn
-                                More</a>
+                            <a href="https://dotnetmicroservices.com#troubleshooting" target="_blank"
+                                style="text-decoration: none;">
+                                <h5 class="course-title">Microservices Troubleshooting Essentials</h5>
+                            </a>
+                            <p class="line-spaced-paragraph">Be the first to know when things go wrong and get
+                                everything fixed before anyone notices it.</p>
                         </div>
                     </div> <!-- end of card -->
-                    <!-- end of card -->
-                </div>                                                   
-                <div class="col-lg-4">
-                    <!-- Card-->
-                    <div class="card">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100" style="transition: box-shadow 0.2s ease-in-out;">
                         <div class="card-image">
                             <img class="img-fluid" src="images/aspnet_course_mockup.png" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <h5>ASP.NET Core Full Stack</h5>
-                            <p>From zero to full stack ASP.NET Core developer, step by step.</p>
-                        </div>
-                        <div class="button-wrapper mb-4">
-                            <a class="btn-solid-reg" href="aspnetcore.html">Learn More</a>
+                            <a href="aspnetcore.html" style="text-decoration: none;">
+                                <h5 class="course-title">ASP.NET Core Full Stack</h5>
+                            </a>
+                            <p class="line-spaced-paragraph">From zero to full stack ASP.NET Core developer, step by
+                                step.</p>
                         </div>
                     </div> <!-- end of card -->
-                    <!-- end of card -->
                 </div>
-                <div class="col-lg-4">
-                    <!-- Card-->
-                    <div class="card">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100" style="transition: box-shadow 0.2s ease-in-out;">
                         <div class="card-image">
                             <img class="img-fluid" src="images/netrestapis_course_mockup.png" alt="alternative">
                         </div>
-                        <div class="card-body mb-4">
-                            <h5 class="mb-4">Building .NET REST APIs</h5>
-                            <p>Build production ready REST APIs with .NET, step by step</p>
+                        <div class="card-body">
+                            <a href="https://dotnetrestapis.com" style="text-decoration: none;" target="_blank">
+                                <h5 class="course-title">Building .NET REST APIs</h5>
+                            </a>
+                            <p class="line-spaced-paragraph">Build production ready REST APIs with .NET, step by
+                                step</p>
                         </div>
-                        <div class="button-wrapper mb-4">
-                            <a class="btn-solid-reg" href="https://dotnetrestapis.com" target="_blank">Learn More</a>
-                        </div>
-                    </div> <!-- end of card -->
-                    <!-- end of card -->
-                </div>                
+                    </div>
+                </div>
             </div> <!-- end of row -->
 
         </div> <!-- end of container -->
@@ -295,20 +283,16 @@
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
 
     <script>
-        function check()
-        {
+        function check() {
             var checkBox = document.getElementById("checbox");
             var text1 = document.getElementsByClassName("text1");
             var text2 = document.getElementsByClassName("text2");
 
-            for (var i = 0; i < text1.length; i++)
-            {
-                if (checkBox.checked == true)
-                {
+            for (var i = 0; i < text1.length; i++) {
+                if (checkBox.checked == true) {
                     text1[i].style.display = "block";
                     text2[i].style.display = "none";
-                } else if (checkBox.checked == false)
-                {
+                } else if (checkBox.checked == false) {
                     text1[i].style.display = "none";
                     text2[i].style.display = "block";
                 }
