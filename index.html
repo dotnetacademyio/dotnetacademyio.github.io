@@ -74,7 +74,7 @@
 
 <body data-spy="scroll" data-target=".fixed-top">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
         <div class="container">
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
@@ -83,12 +83,14 @@
             <!-- Image Logo -->
             <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>  -->
 
-            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="courses.html">Courses</a>
                     </li>
@@ -287,23 +289,23 @@
                         <div class="row justify-content-center">
                             <h2 class="h2-heading">The All-Access Pass</h2>
                             <ul class="list-unstyled li-space-lg" style="margin-bottom: 0;">
-                                <li class="media">
+                                <li class="d-flex">
                                     <i class="fas fa-check for-paragraph"></i>
-                                    <div class="media-body">
+                                    <div class="flex-grow-1 ms-3">
                                         <p class="line-spaced-paragraph"><strong>Monthly live workshops</strong> on
                                             popular topics and Q&A sessions with Julio.</p>
                                     </div>
                                 </li>
-                                <li class="media">
+                                <li class="d-flex">
                                     <i class="fas fa-check for-paragraph"></i>
-                                    <div class="media-body">
+                                    <div class="flex-grow-1 ms-3">
                                         <p class="line-spaced-paragraph"><strong>In-depth premium courses</strong> you
                                             can take at your own pace, from any device.</p>
                                     </div>
                                 </li>
-                                <li class="media">
+                                <li class="d-flex">
                                     <i class="fas fa-check for-paragraph"></i>
-                                    <div class="media-body">
+                                    <div class="flex-grow-1 ms-3">
                                         <p class="line-spaced-paragraph"><strong>Community support</strong> by
                                             likeminded .NET developers on your same learning journey.</p>
                                     </div>
@@ -414,8 +416,8 @@
     <!-- end of copyright -->
 
     <!-- Scripts -->
-    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+
+    <script src="js/bootstrap.bundle.min.js"></script> <!-- Bootstrap framework -->
     <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
     <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
     <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
