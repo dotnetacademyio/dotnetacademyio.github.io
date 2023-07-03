@@ -552,7 +552,7 @@ input[type='checkbox'] {
 }
 
 .navbar .logo-image img {
-	width: 76px;
+	/* width: 250px; */
 	height: 30px;
 }
 
